@@ -1,0 +1,15 @@
+In file included from infinitearithmetic.cpp:3:0:
+DoubleLinkedList.h: In constructor ‘DoubleLinkedList::DoubleLinkedList(const string&, int)’:
+DoubleLinkedList.h:130:60: error: ‘pow’ was not declared in this scope
+      tnum = tnum + (num[count--] - 48) * pow(10, checkNum++);
+                                                            ^
+DoubleLinkedList.h:146:60: error: ‘pow’ was not declared in this scope
+      tnum = tnum + (num[count--] - 48) * pow(10, checkNum++);
+                                                            ^
+DoubleLinkedList.h:158:59: error: ‘pow’ was not declared in this scope
+     tnum = tnum + (num[count--] - 48) * pow(10, checkNum++);
+                                                           ^
+DoubleLinkedList.h: In function ‘void add(DoubleLinkedList&, DoubleLinkedList&)’:
+DoubleLinkedList.h:197:33: error: ‘pow’ was not declared in this scope
+  int power = pow(10, l1.getDPN());
+                                 ^
